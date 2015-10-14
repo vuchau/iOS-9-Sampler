@@ -99,6 +99,26 @@ class RootViewController: UITableViewController {
                 kItemKeyDetail: "Gallery of new fonts.",
                 kItemKeyClassPrefix: "Fonts"
             ],
+            [
+                kItemKeyTitle: "Contacts",
+                kItemKeyDetail: "Contacts framework sample.",
+                kItemKeyClassPrefix: "Contacts"
+            ],
+            [
+                kItemKeyTitle: "Quick Actions",
+                kItemKeyDetail: "Access the shortcut menu on the Home screen using 3D Touch.",
+                kItemKeyClassPrefix: "QuickActions"
+            ],
+            [
+                kItemKeyTitle: "Force Touch",
+                kItemKeyDetail: "Visualize the forces of touches using new properties of UITouch.",
+                kItemKeyClassPrefix: "ForceTouch"
+            ],
+            [
+                kItemKeyTitle: "New Swift 2 features",
+                kItemKeyDetail: "To make this a complete reference here are the awesome new features in Swift 2",
+                kItemKeyClassPrefix: "Swift2"
+            ],
         ]
     }
 

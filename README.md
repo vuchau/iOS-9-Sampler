@@ -40,7 +40,7 @@ New filters of CIFilter which can be used for Still Images.
 
 <img src="ResourcesForREADME/imagefilters.gif">
 
-**NOTE:** 29 filters are supported in this example, however **"CIEdgeWork" and "CISpotLight" don't work correctly** with current code. I would much appreciated your pull request!
+**NOTE:** 29 filters are supported in this example, however **"CISpotLight" don't work correctly** with current code. I would much appreciated your pull request!
 
 
 ###Audio Unit Component Manager
@@ -123,18 +123,58 @@ Gallery of **31 new fonts**.
 <img src="ResourcesForREADME/fonts.jpg" width="200">
 
 
+###Contacts (Created by [manhattan918](https://github.com/manhattan918))
+
+Contacts framework sample.
+
+<img src="ResourcesForREADME/contacts.jpg" width="200">
+
+
+###Quick Actions (3D Touch)  
+
+Press the Icon on Home screen deeply, so you can access to the shortcut menu.
+
+<img src="ResourcesForREADME/shortcut.jpg" width="200">
+
+Please see `UIApplicationShortcutItems` key in Info.plist and `application:performActionForShortcutItem:completionHandler:` method in AppDelegate to know how it's implemented.
+
+**NOTE:** Your device have to support 3D Touch.
+
+###Force Touch (3D Touch)
+
+Visualize the forces of touches using new properties of UITouch `force` and `maximumPossibleForce`.
+
+![](ResourcesForREADME/forcetouch.gif)
+
+**NOTE:** Your device have to support 3D Touch.
+
+###Swift-2-Sampler  (Created by [grantkemp](https://github.com/grantkemp))
+
+To make this a nice reference for all new features including new Swift Syntax, I have added a sample of some of the new Syntax for Swift 2 to make it easy to see the benefits: 
+specifically: 
+- "print"
+- "guard"
+
 ##watchOS-2-Sampler
 
 You can check the **examples for watchOS 2** features on [watchOS-2-Sampler](https://github.com/shu223/watchOS-2-Sampler)!!
 
 <a href="https://github.com/shu223/watchOS-2-Sampler"><img src="ResourcesForREADME/watchos2sampler.jpg" width="200"></a>
 
+<img src="https://raw.githubusercontent.com/shu223/watchOS-2-Sampler/master/ResourcesForREADME/animation.gif" align="left" hspace="1">
+
+<img src="https://raw.githubusercontent.com/shu223/watchOS-2-Sampler/master/ResourcesForREADME/tableanim.gif" align="left" hspace="1">
+
+<img src="https://raw.githubusercontent.com/shu223/watchOS-2-Sampler/master/ResourcesForREADME/crownanim.gif" align="left" hspace="1">
+
+<br clear="both">
+
 - https://github.com/shu223/watchOS-2-Sampler
 
 
 ##Author
 
-Shuichi Tsutsumi (Freelance iOS engineer)
+**Shuichi Tsutsumi** (Freelance iOS engineer)
 
 - [Twitter](https://twitter.com/shu223)
 - [Facebook](https://www.facebook.com/shuichi.tsutsumi)
@@ -143,4 +183,4 @@ Shuichi Tsutsumi (Freelance iOS engineer)
 
 ##Special Thanks
 
-The icon is **designed by [Okazu](https://www.facebook.com/pashimo)**
+The icon is designed by [Okazu](https://www.facebook.com/pashimo)
